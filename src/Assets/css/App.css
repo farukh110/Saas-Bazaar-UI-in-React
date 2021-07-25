@@ -84,7 +84,6 @@ a:hover
 .logo-box:hover {
     border: 1px solid #fff;
     box-shadow: 0px 0px 6px 2px rgb(0 22 66 / 44%);
-    transform: scale(1.10);
 }
 
 .logo-box p
@@ -438,7 +437,7 @@ a:hover
 
 .contact-us .contact-info h5
 {
-   color: #001642;
+   color: #067AEA;
 }
 
 .contact-us .contact-info h1
@@ -542,6 +541,11 @@ a:hover
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
+    .compare-features-box {
+     
+        padding-bottom: 20px;
+    }
 }
 
 .login-icon
@@ -616,4 +620,110 @@ a:hover
 
 .nav-tabs {
     border-bottom: none;
+}
+
+.content__tabs .ant-tabs-tab 
+{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    color: #767676;
+}
+
+.content__tabs .ant-tabs-content-holder 
+{
+    margin-left: 10px;
+}
+
+.content__tabs .ant-tabs-tab-active
+{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.content__tab_active
+{
+   color: #000;
+}
+
+.content__tabs img
+{
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+
+.show-comment
+{
+    border-radius: 12px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.menu_active
+{
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-facebook
+{
+    background: #067AEA;
+    color: #fff;
+}
+
+.btn-google
+{
+   background: #fff;
+   border: 1px solid #EBECF0;
+}
+
+.btn-google
+{
+    color: #067AEA;
+}
+
+.profile
+{
+    padding: 10px;
+    border: 1px solid #ECECEC;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.profile-img-content img
+{
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+}
+
+.row-border-top
+{
+    border: 1px solid #ECECEC;
+}
+
+.btn-outgray
+{
+    border: 1px solid #D1D1D1;
+    border-radius: 50%;
+}
+
+.row-border-right
+{
+    border-left: 1px solid #ECECEC;
+}
+
+.profile h4
+{
+    font-weight: 600;  
+    font-size: 17px;
+}
+
+.row-border-top2
+{
+    border-top: 1px solid #ECECEC;
 }

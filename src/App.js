@@ -6,6 +6,7 @@ import Login from './Components/Login';
 import CreateAccount from './Components/CreateAccount';
 import Contact from './Components/Contact';
 import About from './Components/About';
+import UserProfile from './Components/UserProfile';
 import { Redirect, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route exact path="/create-account" component={CreateAccount} />
       <Route exact path="/contact-us" component={Contact} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/profile-screen" component={UserProfile} />
       <Redirect to="/" />
       </Switch>
     </div>

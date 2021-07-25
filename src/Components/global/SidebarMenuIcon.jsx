@@ -59,25 +59,16 @@ class SidebarMenuIcon extends React.Component {
 
             <div className="trending">
 
-              <h4> Trending </h4>
-
               <ul>
-
-                <li> <a className="sidebar_link" href="!#"> Best Sellers </a> </li>
-                <li> <a className="sidebar_link" href="!#"> New Releases </a> </li>
-                <li> <a className="sidebar_link" href="!#"> Movers & Shakers </a> </li>
                 <li> <a className="sidebar_link" href="!#"> Sell </a> </li>
                 <li> <a className="sidebar_link" href="!#"> Promote </a> </li>
                 <li> <a className="sidebar_link" href="!#"> Support </a> </li>
                 <li> 
-                 <NavLink className="sidebar_link" onClick={this.close} exact to="/"> Home </NavLink> 
-                 </li>
-                <li> 
-                 <NavLink className="sidebar_link" onClick={this.close} exact to="/about"> About Us </NavLink> 
+                 <NavLink activeClassName='menu_active' className="sidebar_link" onClick={this.close} exact to="/about"> About Us </NavLink> 
                  </li>
                 <li>
                 
-                 <NavLink className="sidebar_link" onClick={this.close} exact to="/contact-us"> Contact Us </NavLink> </li>
+                 <NavLink activeClassName='menu_active' className="sidebar_link" onClick={this.close} exact to="/contact-us"> Contact Us </NavLink> </li>
                 
                 
               </ul>  

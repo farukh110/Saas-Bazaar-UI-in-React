@@ -60,22 +60,16 @@ const CreateAccount = () => {
         
                     <br/>
 
-                    <InputGroup>
-                    <InputGroup.Addon>
-                        <Icon className="phone-number-icon" icon="google" />
-                    </InputGroup.Addon>
-                    <Button block appearance="primary"> Continue with Google </Button>
-                    </InputGroup>
-
+                    <Button block className="btn-facebook"> <Icon className="phone-number-icon" icon="facebook" /> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Continue with Facebook </Button>
+                    
                     <br/>
 
-                    <InputGroup>
-                    <InputGroup.Addon>
-                        <Icon className="phone-number-icon" icon="facebook" />
-                    </InputGroup.Addon>
-                    <Button block color="violet"> Continue with Facebook </Button>
-                    </InputGroup>
-
+                    <Button block className="btn-google"> <Icon className="phone-number-icon" icon="google" /> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Continue with Google </Button>
+                   
                     <Grid>  
 
                     </Grid>

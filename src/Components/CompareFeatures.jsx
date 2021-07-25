@@ -8,6 +8,7 @@ import digital from '../Assets/images/compare-features/digital.JPG';
 import education from '../Assets/images/compare-features/education.jpg';
 import microsoft from '../Assets/images/compare-features/microsoft.jpg';
 import UploaderWidget from '../Components/global/UploaderWidget';
+import ContentTabs from '../Components/global/ContentTabs'; 
 
 const CompareFeatures = () => {
     return (
@@ -30,7 +31,7 @@ const CompareFeatures = () => {
 
                    <Row className="show-grid">
                    
-                    <Col xs={24} sm={24} md={10} lg={9}>
+                    <Col xs={24} sm={24} md={10} lg={10}>
                     
                       <div className="compare-img-content">
 
@@ -180,7 +181,22 @@ const CompareFeatures = () => {
                       </Grid>
 
                       <Grid>
-                        
+
+                       <Row>
+
+                       <Col xs={24} md={11} lg={10}>
+
+                         <div>
+
+                         <br/><br/>   
+                         <ContentTabs/>
+                            
+                         </div>  
+
+                       </Col>
+                       
+                       </Row>    
+
                       </Grid>
 
                     </Col>
